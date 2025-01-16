@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function Slide1() {
   return (
-<div className="sm:bg-gradient-to-bl h-screen grid grid-cols-1 md:grid-cols-2 items-center font-sans px-2 md:px-4 max-h-[450px]" style={{ backgroundImage: "url('./assets/images/img3.jpg')" }}>
+<div className="sm:bg-gradient-to-bl h-screen grid grid-cols-1 md:grid-cols-2 items-center font-sans px-2 md:px-4 max-h-[450px]" style={{ backgroundImage: "url('https://raw.githubusercontent.com/vijaybhagat15/gym-c/refs/heads/main/src/assets/images/img3.jpg')" }}>
       {/* left Section: Text Content */}
       <motion.div
         className="flex items-center justify-center "
