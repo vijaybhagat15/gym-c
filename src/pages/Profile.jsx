@@ -74,7 +74,10 @@ export default function Profile() {
     setEditable(false);
   };
 
-  return (<>        <div className=" border-b-2 text-white">
+  return (
+  <>
+         
+  <div className=" border-b-2 text-white">
     <div className="relative w-full h-[5vh] sm:h-[20vh] overflow-hidden">
       {/* Video Background */}
       <video

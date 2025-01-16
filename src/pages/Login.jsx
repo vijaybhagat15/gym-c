@@ -40,7 +40,26 @@ function Moon() {
   };
 
   return (
+    <>              {/* Hero Section */}
+    <div className=" border-b-2 text-white">
+<div className="relative w-full h-[5vh] sm:h-[20vh] overflow-hidden">
+  {/* Video Background */}
+  <video
+    className="absolute top-0 left-0 w-full h-full object-cover z-0"
+    src="/videos/aboutbg.mp4" 
+    autoPlay
+    loop
+    muted
+  ></video>
+
+  {/* Overlay Content */}
+  <div className="relative z-10 flex items-center justify-center w-full h-full bg-black bg-opacity-30">
+    <h1 className="text-xl sm:text-5xl font-bold font-serif text-white">Login Page</h1>
+  </div>
+</div>
+</div>
     <div className="h-screen w-screen flex items-center justify-center">
+
       {/* Main container */}
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center max-w-6xl w-full">
         {/* Login Image */}
@@ -138,6 +157,7 @@ function Moon() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
