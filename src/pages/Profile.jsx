@@ -79,7 +79,7 @@ export default function Profile() {
       {/* Video Background */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
-        src="https://github.com/vijaybhagat15/gym-c/blob/main/src/assets/videos/aboutbg.mp4" 
+        src="/videos/aboutbg.mp4" 
         autoPlay
         loop
         muted

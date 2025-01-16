@@ -8,7 +8,7 @@ export default function Contact() {
         <div className="relative w-full h-[5vh] sm:h-[15vh] overflow-hidden">
           <video
             className="absolute top-0 left-0 w-full h-full object-cover z-0"
-            src="src/assets/videos/aboutbg.mp4"
+            src="/videos/aboutbg.mp4" 
             autoPlay
             loop
             muted
@@ -33,7 +33,7 @@ export default function Contact() {
           {/* Customer-Centric Approach */}
           <div className="space-y-4">
             <img
-              src="public\images\cus.avif"
+              src="\images\cus.avif"
               alt="Customer Support"
               className="w-full rounded-lg shadow-md"
             />
@@ -46,7 +46,7 @@ export default function Contact() {
           {/* Continuous Improvement */}
           <div className="space-y-4">
             <img
-              src="public\images\impro.jpg"
+              src="\images\impro.jpg"
               alt="Continuous Improvement"
               className="w-full rounded-lg shadow-md"
             />
