@@ -6,19 +6,19 @@ const BlogPosts = () => {
       title: 'Treadmills for Home vs. Treadmills for Gym: Which One to Choose?',
       date: 'January 8, 2025',
       author: 'vijay',
-      video: 'src/assets/videos/v1.mp4', // Replace with your video URL
+      video: 'https://github.com/vijaybhagat15/gym-c/blob/main/src/assets/videos/v1.mp4', // Replace with your video URL
     },
     {
       title: 'How To Build Muscle With A Dumbbell Set: Effective Tips',
       date: 'July 31, 2024',
       author: 'vijay',
-      video: 'src/assets/videos/v2.mp4', // Replace with your video URL
+      video: 'https://github.com/vijaybhagat15/gym-c/blob/main/src/assets/videos/v2.mp4', // Replace with your video URL
     },
     {
       title: 'The Ultimate Guide to Choosing the Perfect Spin Bike',
       date: 'July 31, 2024',
       author: 'vijay',
-      video: 'src/assets/videos/v3.mp4', // Replace with your video URL
+      video: 'https://github.com/vijaybhagat15/gym-c/blob/main/src/assets/videos/v3.mp4', // Replace with your video URL
     },
   ];
 
