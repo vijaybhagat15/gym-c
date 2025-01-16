@@ -165,7 +165,7 @@ export default function Contact() {
               </div>
               <button
                 type="submit"
-                className="w-full py-3 rounded-md text-gray-100 font-semibold transition-all duration-300 flex items-center justify-center bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-600"
+                className="w-full py-3  text-gray-100 font-semibold  flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-gray-600  bg-orange-500  rounded-lg hover:bg-white hover:text-orange-500 transition-all duration-500 border-2 border-gray-300 font-sans"
               >
                 <FaPaperPlane className="mr-2" /> Send Message
               </button>

@@ -57,7 +57,7 @@ export default function Wishlist() {
   };
 
   return (
-    <section className="min-h-screen py-4 px-3 font-sans">
+    <section className="min-h-screen pb-4 px-3 font-sans">
         {/* Hero Section */}
         <div className=" border-b-2 text-white">
           <div className="relative w-full h-[5vh] sm:h-[20vh] overflow-hidden">
@@ -132,13 +132,12 @@ export default function Wishlist() {
                       </span>
                     ))}
                 </div>
-
                 <button
-                className="absolute bottom-2 right-2  text-[10px] font-medium px-1 py-1 rounded-lg hover:bg-white hover:text-gray-500 bg-gray-500 text-white  hover:border-gray-500 border-2 transition font-sans"
+                className="absolute bottom-2 right-2 bg-orange-500 text-white text-[10px] font-medium p-2 rounded-lg hover:bg-white hover:text-orange-500 transition-all duration-500 border-2 border-white font-sans"
                 onClick={(e) => handleAddToCart(product, e)}
-                >
-                  Add to Cart
-                </button>
+              >
+                Add to Cart
+              </button>
               </div>
             ))}
           </div>

@@ -140,7 +140,7 @@ export default function Profile() {
               </div>
               <button
                 type="submit"
-                className="px-3 py-2 m-4 bg-green-600 text-white rounded-lg hover:bg-green-400 transition"
+                className="px-3 py-2 m-4 text-white font-bold  bg-green-600  rounded-lg hover:bg-white hover:text-green-600 transition-all duration-500 border-2 border-gray-300 font-sans"
               >
                 Save Changes
               </button>
@@ -160,7 +160,7 @@ export default function Profile() {
               ))}
               <button
                 onClick={() => setEditable(true)}
-                className="px-3 py-2 bg-gray-800 text-white font-bold rounded-lg hover:bg-gray-700 transition"
+                className="px-3 py-2  text-white font-bold  bg-orange-500  rounded-lg hover:bg-white hover:text-orange-500 transition-all duration-500 border-2 border-gray-300 font-sans"
               >
                 Edit Profile
               </button>
@@ -168,7 +168,7 @@ export default function Profile() {
           )}
           <button
             onClick={handleLogout}
-            className="px-3 mt-4 mx-5 py-2 bg-gray-800 text-white font-bold rounded-lg hover:bg-gray-700 transition"
+            className="px-3 mt-4 mx-5 py-2  text-white font-bold  bg-red-500  rounded-lg hover:bg-white hover:text-red-500 transition-all duration-500 border-2 border-gray-300 font-sans"
           >
             Log Out
           </button>

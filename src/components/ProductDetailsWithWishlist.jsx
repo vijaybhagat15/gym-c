@@ -12,6 +12,18 @@ export default function ProductDetailsWithWishlist() {
   const handleCardClick = (productId) => {
     window.location.href = `/product/${productId}`;
   };
+  const handleAddToWishlist = (product, e) => {
+    e.stopPropagation();
+    if (wishlist.some((item) => item.id === product.id)) {
+      setWishlist((prevWishlist) =>
+        prevWishlist.filter((item) => item.id !== product.id)
+      );
+      alert(`${product.name} removed from wishlist.`);
+    } else {
+      setWishlist((prevWishlist) => [...prevWishlist, product]);
+      alert(`${product.name} added to wishlist.`);
+    }
+  };
 
   useEffect(() => {
     const foundProduct = products.find((item) => item.id === parseInt(id));
@@ -161,8 +173,8 @@ export default function ProductDetailsWithWishlist() {
                   ))}
               </div>
               <button
-                className="absolute bottom-2 right-2  text-[10px] font-medium px-1 py-1 rounded-lg hover:bg-white hover:text-gray-500 bg-gray-500 text-white  hover:border-gray-500 border-2 transition font-sans"
-                onClick={(e) => handleAddToCart(related, e)}
+                className="absolute bottom-2 right-2 bg-orange-500 text-white text-[10px] font-medium p-2 rounded-lg hover:bg-white hover:text-orange-500 transition-all duration-500 border-2 border-white font-sans"
+                onClick={(e) => handleAddToCart(product, e)}
               >
                 Add to Cart
               </button>

@@ -58,21 +58,21 @@ function Moon() {
   </div>
 </div>
 </div>
-    <div className="h-screen w-screen flex items-center justify-center">
+    <div className="h-full w-full flex items-center justify-center bg-gray-300">
 
       {/* Main container */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 items-center max-w-6xl w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center max-w-6xl w-full bg-gray-300">
         {/* Login Image */}
-        <div className="hidden lg:flex items-center justify-center">
+        <div className="hidden lg:flex items-center justify-center  ">
           <img
             src="https://static.vecteezy.com/system/resources/previews/002/710/265/original/profile-login-style-vector.jpg"
             alt="Login"
-            className="max-w-md max-h-md"
+            className="max-w-md max-h-md rounded-3xl"
           />
         </div>
 
         {/* Login Section */}
-        <div className="flex flex-col items-center bg-gray-800 bg-opacity-90 p-3 rounded-lg shadow-lg border border-gray-500 mx-auto max-w-md w-full">
+        <div className="flex flex-col items-center bg-black p-3 rounded-3xl shadow-lg border border-gray-500 mx-auto max-w-md w-full">
           <form onSubmit={handleSubmit} className="space-y-4">
             <h2 className="text-2xl font-bold text-center text-white font-serif">Login Here</h2>
 

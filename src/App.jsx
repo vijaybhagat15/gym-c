@@ -17,7 +17,6 @@ import Products from './pages/Products';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Checkout from './pages/Checkout';
-
 Checkout
 function App() {
   return (

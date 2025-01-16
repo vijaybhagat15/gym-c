@@ -46,7 +46,25 @@ export default function SignUp() {
   };
 
   return (
-    <div className="h-screen w-screen relative flex items-center justify-center">
+    <>
+    <div className=" border-b-2 text-white">
+    <div className="relative w-full h-[5vh] sm:h-[20vh] overflow-hidden">
+      {/* Video Background */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        src="/videos/aboutbg.mp4" 
+        autoPlay
+        loop
+        muted
+      ></video>
+
+      {/* Overlay Content */}
+      <div className="relative z-10 flex items-center justify-center w-full h-full bg-black bg-opacity-30">
+        <h1 className="text-xl sm:text-5xl font-bold font-serif text-white">Sign Up</h1>
+      </div>
+    </div>
+  </div>
+    <div className="h-full w-full relative flex items-center justify-center bg-gray-300">
       {/* Background Video */}
       <div className="absolute inset-0 overflow-hidden">
         <video autoPlay loop muted className="w-full h-full object-cover">
@@ -54,10 +72,17 @@ export default function SignUp() {
           Your browser does not support the video tag.
         </video>
       </div>
-
+      <div className='lg:grid lg:grid-cols-2'>
+      <div className="hidden lg:flex items-center justify-center  ">
+          <img
+            src="https://img.freepik.com/free-vector/privacy-policy-concept-illustration_114360-7853.jpg?ga=GA1.1.863027414.1736430393&semt=ais_hybrid"
+            alt="Login"
+            className="max-w-md max-h-md rounded-3xl"
+          />
+        </div>
       {/* Sign Up Section */}
       <div className="relative z-10 flex flex-col lg:flex-row items-center w-full max-w-6xl px-4">
-        <div className="w-full max-w-sm bg-gray-800 bg-opacity-90 p-4 rounded-lg shadow-lg border border-gray-500 mx-auto">
+        <div className="w-full  bg-black  p-4 rounded-3xl shadow-lg border border-gray-500 mx-auto">
           <form onSubmit={handleSubmit} className="space-y-3">
             <h2 className="text-xl font-bold text-center text-white font-serif">Sign Up Here</h2>
 
@@ -161,6 +186,8 @@ export default function SignUp() {
           </form>
         </div>
       </div>
+      </div>
     </div>
+    </>
   );
 }

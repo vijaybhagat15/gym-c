@@ -47,7 +47,7 @@ export default function ForgotPassword() {
 
       {/* Forgot Password Section */}
       <div className="relative z-10 flex flex-col items-center w-full max-w-6xl px-4">
-        <div className="w-full max-w-sm bg-gray-800 bg-opacity-90 p-6 rounded-lg shadow-lg border border-gray-500 mx-auto">
+        <div className="w-full max-w-sm bg-black p-6 rounded-lg shadow-lg border border-gray-500 mx-auto">
           <form onSubmit={handleSubmit} className="space-y-4">
             <h2 className="text-2xl font-bold text-center text-white font-serif">Forgot Password</h2>
 

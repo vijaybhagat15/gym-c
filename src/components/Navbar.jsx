@@ -6,9 +6,8 @@ import {
   FaSearch,
   FaSignInAlt,
   FaBars,
-  FaRegHeart,
+  FaHeart,
   FaPhoneAlt,
-  FaBlog,
   FaBoxOpen,
   FaHome,
   FaTimes
@@ -42,12 +41,12 @@ const Navbar = () => {
   const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
  
   return (
-    <header className="bg-black text-white font-sans">
+    <header className="bg-black text-white font-sans border-b-2 border-white">
       {/* Top Section */}
       <div className="container mx-auto py-2 flex items-center justify-between">
         <div className="space-x-2 flex items-center px-1">
           <button
-            className="md:hidden bg-gray-400 lg:text-base text-[12px] py-1 px-2 rounded-md"
+            className="md:hidden bg-orange-500 lg:text-base text-[12px] py-1 px-2 rounded-md"
             onClick={toggleSidebar}
             aria-label="Toggle Sidebar"
           >
@@ -93,32 +92,35 @@ const Navbar = () => {
           {!isAuthenticated ? (
             <Link
               to="/login"
-              className="relative group flex items-center sm:w-14 w-10 sm:h-7 h-5 bg-gray-400 rounded-md hover:bg-sunset-orange transition-all ml-auto text-[10px] sm:text-lg"
+              className="relative group flex items-center sm:w-14 w-10 sm:h-7 h-5 duration-600 ml-auto text-[10px] sm:text-lg text-white font-bold  bg-orange-500  rounded-lg hover:bg-white hover:text-orange-500 transition-all duration-500 border-2 border-gray-300 font-sans"
             >
-              <FaSignInAlt className="transition-opacity duration-200 opacity-100 group-hover:opacity-0 text-sm mx-auto " />
-              <span className="absolute font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200 px-1">Login</span>
+              <FaSignInAlt className="transition-opacity duration-200 opacity-100 group-hover:opacity-0 text-sm mx-auto" />
+              <span className="absolute font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200 px-1">
+                Login
+              </span>
             </Link>
+
           ) : (
             <>
-              <Link to="/profile">
-                <FaUser className="hover:text-red-500 cursor-pointer" />
+              <Link to="/profile" className='relative sm:border-[1px] border-white rounded-full sm:p-2'>
+                <FaUser className="hover:text-orange-500 cursor-pointer text-xl" />
               </Link>
-              <Link to="/Wishlist" className="relative  ">
-                <FaRegHeart className="hover:text-red-500 cursor-pointer" />
-                <span className="absolute -top-1 -right-2 bg-red-500 text-white text-xs rounded-full px-1">{savedWishlistCount}</span>
+              <Link to="/Wishlist" className="relative sm:border-[1px] border-white rounded-full sm:p-2  ">
+                <FaHeart className="hover:text-red-500 cursor-pointer text-xl" />
+                <span className="absolute -top-1 -right-2 bg-orange-500 text-white text-xs rounded-full px-1">{savedWishlistCount}</span>
               </Link>
             </>
           )}
-          <Link to="/cart" className="relative">
-            <FaShoppingCart className="hover:text-red-500 cursor-pointer" />
-            <span className="absolute -top-1 -right-2 bg-red-500 text-white text-xs rounded-full px-1">{cartCount}</span>
+          <Link to="/cart" className="relative sm:border-[1px] border-white rounded-full sm:p-2">
+            <FaShoppingCart className="hover:text-red-500 cursor-pointer text-xl" />
+            <span className="absolute -top-1 -right-2 bg-orange-500 text-white text-xs rounded-full px-1">{cartCount}</span>
           </Link>
         </div>
 
         {/* Sidebar */}
         {isSidebarOpen && (
   <div className="fixed inset-0 bg-white bg-opacity-50 z-40">
-    <div className="bg-black text-white w-5/6 md:w-1/3 fixed top-0 left-0 h-full shadow-lg rounded-r-lg">
+    <div className="bg-black text-white w-4/6 md:w-1/3 fixed top-0 left-0 h-full shadow-lg rounded-r-lg" style={{ backgroundImage: "url('https://img.freepik.com/free-vector/bring-night-space-wallpaper-with-glowing-starfield_1017-53512.jpg?t=st=1737050317~exp=1737053917~hmac=94c82b20e688b15ac7509ff45bb943c8a797a168f9587faf120512176d2d737b&w=1060')" }}>
       {/* Header Section */}
       <div className="flex justify-between items-center px-4 py-2 bg-gray-800">
         <span className="font-semibold uppercase">Menu</span>
@@ -132,7 +134,7 @@ const Navbar = () => {
       </div>
 
       {/* Menu Items */}
-      <div className="space-y-4 bg-gray-900 m-6 mt-10 rounded-xl p-2">
+      <div className="space-y-4 bg-transparent mr-6 mt-10 rounded-xl p-2 ">
         {[
           { path: '/', label: 'Home', icon: FaHome },
           { path: '/products', label: 'Shop', icon: FaBoxOpen },
@@ -175,7 +177,7 @@ const Navbar = () => {
         </button>
 
         {/* Tooltip Dropdown */}
-        <div className="absolute left-0 hidden group-hover:block bg-gray-800 text-white rounded shadow-lg group z-10">
+        <div className="absolute left-0 hidden group-hover:block bg-gray-800 text-white rounded shadow-lg group z-20">
           <ul>
             {options.map((option) => (
               <li key={option}>

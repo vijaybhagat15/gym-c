@@ -32,7 +32,7 @@ const Features = () => {
           key={index}
           className="flex flex-col items-center text-center max-w-[120px]"
         >
-          <div className="flex items-center justify-center sm:w-20 sm:h-20 w-10 h-10 bg-red-100 rounded-full">
+          <div className="flex items-center justify-center sm:w-20 sm:h-20 w-10 h-10 bg-red-100 rounded-full p-2">
             {feature.icon}
           </div>
           <h3 className="mt-4 sm:text-lg text-sm font-bold text-gray-800">{feature.title}</h3>

@@ -121,7 +121,7 @@ export default function Products() {
   const uniqueCategories = [...new Set(products.map((item) => item.category))];
 
   return (
-    <section className="min-h-screen py-4 px-3 font-sans bg-white border-b-2 border-white w-screen">
+    <section className="min-h-screen py-b px-3 font-sans bg-white border-b-2 border-white w-screen">
       <div className="w-full mx-auto">
         {/* Hero Section */}
         <div className=" border-b-2 text-white">
@@ -299,7 +299,7 @@ export default function Products() {
                   ))}
               </div>
               <button
-                className="absolute bottom-2 right-2  text-[10px] font-medium px-1 py-1 rounded-lg hover:bg-white hover:text-gray-500 bg-gray-500 text-white  hover:border-gray-500 border-2 transition font-sans"
+                className="absolute bottom-2 right-2 bg-orange-500 text-white text-[10px] font-medium p-1 rounded-lg hover:bg-white hover:text-orange-500 transition-all duration-500 border-2 border-white font-sans"
                 onClick={(e) => handleAddToCart(product, e)}
               >
                 Add to Cart

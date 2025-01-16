@@ -104,7 +104,7 @@ export default function Cart() {
     const uniqueCategories = [...new Set(cart.map((item) => item.category))];
 
     return (
-        <div className="min-h-screen py-6 px-4 bg-white font-sans max-w-full">
+        <div className="min-h-screen b-6 px-4 bg-white font-sans max-w-full">
             <div className=" mx-auto">
                 {/* Header Section */}
         {/* Hero Section */}
@@ -329,7 +329,7 @@ export default function Cart() {
                                 <span>${(calculateTotal() - calculateSavings() - calculateCouponDiscount() + calculateTaxes()).toFixed(2)}</span>
                             </div>
                             <button
-                                className="mt-4 w-full  hover:bg-white hover:text-gray-500 bg-gray-500 text-white  hover:border-gray-500 border-2 py-2 rounded-lg  font-serif"
+                                className="mt-4 w-full hover:border-gray-500 py-2    text-white font-bold  bg-orange-500  rounded-lg hover:bg-white hover:text-orange-500 transition-all duration-500 border-2 border-gray-300 font-sans"
                                 onClick={handleCheckout}
                             >
                                 Checkout
