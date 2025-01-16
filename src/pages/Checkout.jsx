@@ -37,6 +37,24 @@ export default function Checkout() {
 
   return (
     <div className="min-h-screen bg-blue-100 py-8 px-4 sm:px-8 font-sans">
+              {/* Hero Section */}
+              <div className=" border-b-2 text-white">
+                <div className="relative w-full h-[5vh] sm:h-[20vh] overflow-hidden">
+                  {/* Video Background */}
+                  <video
+                    className="absolute top-0 left-0 w-full h-full object-cover z-0"
+                    src="https://github.com/vijaybhagat15/gym-c/blob/main/src/assets/videos/aboutbg.mp4" 
+                    autoPlay
+                    loop
+                    muted
+                  ></video>
+      
+                  {/* Overlay Content */}
+                  <div className="relative z-10 flex items-center justify-center w-full h-full bg-black bg-opacity-30">
+                    <h1 className="text-xl sm:text-5xl font-bold  text-white font-serif">Checkout</h1>
+                  </div>
+                </div>
+              </div>
       <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg">
         <div className="grid grid-cols-1 lg:grid-cols-3">
           <div className="col-span-1 bg-blue-800 text-white p-6 space-y-4">

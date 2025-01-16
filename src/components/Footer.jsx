@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Logo and Contact Info */}
         <div>
           <img
-            src="src\assets\images\logo.png"
+            src="https://raw.githubusercontent.com/vijaybhagat15/gym-c/refs/heads/main/src/assets/images/logo.png"
             alt="Cockatoo Logo"
             className="mb-4 w-40"
           />
