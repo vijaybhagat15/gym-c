@@ -115,28 +115,28 @@ export default function Cart() {
             </div>
           </div>
         </div>
-                <div className="col-span-1 flex flex-col space-y-4 min-w-32 lg:hidden border-2 border-x-gray-200 rounded-lg p-3 text-black text-xs  bg-gray-500">
-                <div className="flex flex-col space-y-2">
-                <input
-                type="text"
-                placeholder="Search products...🔍"
-                className="sm:px-2 sm:py-2 px-2 rounded-md sm:my-2 border-2 hover:border-custom-beige border-gray-400 sm:w-auto "
-                value={searchQuery}
-                onChange={handleSearchChange}
-                />
-                <label className="font-semibold">
-                Price Range: ${filters.price[0]} - ${filters.price[1]}
-                </label>
-                <Slider
-                range
-                min={0}
-                max={500}
-                defaultValue={[0, 500]}
-                value={filters.price}
-                onChange={handlePriceChange}
-                />
+        <div className="col-span-1 flex flex-col space-y-1 min-w-32 lg:hidden border-2 border-x-gray-200 rounded-lg px-3 py-1 text-black h-min  bg-gray-500 text-xs">
+          <div className="flex flex-col ">
+            <input
+              type="text"
+              placeholder="Search products...🔍"
+              className=" px-2  rounded-md sm:my-2 border-2 hover:border-custom-beige border-gray-400 sm:w-auto "
+              value={searchQuery}
+              onChange={handleSearchChange}
+            />
+            <label className=" font-semibold">
+              Price Range: ${filters.price[0]} - ${filters.price[1]}
+            </label>
+            <Slider
+              range
+              min={0}
+              max={500}
+              defaultValue={[0, 500]}
+              value={filters.price}
+              onChange={handlePriceChange}
+            />
           </div>
-          <div className="flex flex-col space-y-2 ">
+          <div className="flex flex-col ">
             <label className=" font-semibold">
               Minimum Rating: {filters.rating} Stars
             </label>
@@ -149,19 +149,19 @@ export default function Cart() {
               onChange={handleRatingChange}
             />
           </div>
-          <div className="flex flex-col space-y-2">
-            <label className="font-semibold text-gray-700">
+          <div className="flex flex-col space-y-1">
+            <label className=" font-semibold ">
               Categories:
             </label>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-4 text-[10px]">
               {uniqueCategories.map((category) => (
-                <div key={category} className="flex items-center space-x-2">
+                <div key={category} className="flex items-center space-x-1">
                   <input
                     type="checkbox"
                     id={category}
                     checked={filters.category.includes(category)}
                     onChange={() => handleCategoryChange(category)}
-                    className="form-checkbox h-4 w-4"
+                    className="form-checkbox h-3 w-3"
                   />
                   <label htmlFor={category} className="">
                     {category}
@@ -171,6 +171,7 @@ export default function Cart() {
             </div>
           </div>
         </div>
+
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
                     {/* Filters Section */}
         <div className="col-span-1 lg:flex flex-col space-y-4 min-w-32  border-2 border-x-gray-200 rounded-lg p-3 text-black hidden bg-gray-500">
