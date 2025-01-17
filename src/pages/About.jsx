@@ -19,18 +19,8 @@ const AboutUs = () => {
     <div className="bg-gray-300  text-black border-y-2 border-white">
     <div >
         {/* Hero Section */}
-        <div className=" border-b-2 text-white">
+        <div className=" border-b-2 text-white "style={{ backgroundImage: "url('/images/bg.jpg')" }}>
           <div className="relative w-full h-[5vh] sm:h-[20vh] overflow-hidden">
-            {/* Video Background */}
-            <video
-              className="absolute top-0 left-0 w-full h-full object-cover z-0"
-              src="/videos/aboutbg.mp4" 
-              autoPlay
-              loop
-              muted
-            ></video>
-
-            {/* Overlay Content */}
             <div className="relative z-10 flex items-center justify-center w-full h-full bg-black bg-opacity-30">
               <h1 className="text-xl sm:text-5xl font-bold  text-white font-serif">About Us</h1>
             </div>

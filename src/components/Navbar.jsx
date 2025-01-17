@@ -120,7 +120,7 @@ const Navbar = () => {
         {/* Sidebar */}
         {isSidebarOpen && (
   <div className="fixed inset-0 bg-white bg-opacity-50 z-40">
-    <div className="bg-black text-white w-4/6 md:w-1/3 fixed top-0 left-0 h-full shadow-lg rounded-r-lg" style={{ backgroundImage: "url('https://img.freepik.com/free-vector/bring-night-space-wallpaper-with-glowing-starfield_1017-53512.jpg?t=st=1737050317~exp=1737053917~hmac=94c82b20e688b15ac7509ff45bb943c8a797a168f9587faf120512176d2d737b&w=1060')" }}>
+    <div className="bg-black text-white w-4/6 md:w-1/3 fixed top-0 left-0 h-full shadow-lg rounded-r-lg" style={{ backgroundImage: "url('/images/bg.jpg')" }}>
       {/* Header Section */}
       <div className="flex justify-between items-center px-4 py-2 bg-gray-800">
         <span className="font-semibold uppercase">Menu</span>

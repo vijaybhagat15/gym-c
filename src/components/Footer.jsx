@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Logo and Contact Info */}
         <div>
           <img
-            src="public\images\logo.png"
+            src="/images/logo.png"
             alt="Cockatoo Logo"
             className="mb-4 w-40"
           />

@@ -4,15 +4,8 @@ export default function Contact() {
   return (
     <>
       {/* Header Section */}
-      <div className="border-b-2 text-black font-sans">
+        <div className=" border-b-2 text-white "style={{ backgroundImage: "url('/images/bg.jpg')" }}>
         <div className="relative w-full h-[5vh] sm:h-[15vh] overflow-hidden">
-          <video
-            className="absolute top-0 left-0 w-full h-full object-cover z-0"
-            src="/videos/aboutbg.mp4" 
-            autoPlay
-            loop
-            muted
-          ></video>
           <div className="relative z-10 flex items-center justify-center w-full h-full bg-black bg-opacity-30">
             <h1 className="text-xl sm:text-5xl font-bold text-white font-serif">Customer Care</h1>
           </div>
