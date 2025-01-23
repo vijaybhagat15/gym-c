@@ -36,10 +36,10 @@ export default function Checkout() {
   };
 
   return (
-    <div className="min-h-screen bg-blue-100 py-8 px-4 sm:px-8 font-sans">
+    <div className="min-h-screen bg-blue-100 font-sans pb-8">
               {/* Hero Section */}
         <div className=" border-b-2 text-white "style={{ backgroundImage: "url('/images/bg.jpg')" }}>
-                <div className="relative w-full h-[5vh] sm:h-[20vh] overflow-hidden">
+                <div className="relative w-full h-[5vh] sm:h-[10vh] overflow-hidden">
                   <div className="relative z-10 flex items-center justify-center w-full h-full bg-black bg-opacity-30">
                     <h1 className="text-xl sm:text-5xl font-bold  text-white font-serif">Checkout</h1>
                   </div>

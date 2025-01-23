@@ -104,12 +104,12 @@ export default function Cart() {
     const uniqueCategories = [...new Set(cart.map((item) => item.category))];
 
     return (
-        <div className="min-h-screen b-6 px-4 bg-white font-sans max-w-full">
+        <div className="min-h-screen b-6  bg-white font-sans max-w-full">
             <div className=" mx-auto">
                 {/* Header Section */}
         {/* Hero Section */}
         <div className=" border-b-2 text-white "style={{ backgroundImage: "url('/images/bg.jpg')" }}>
-          <div className="relative w-full h-[5vh] sm:h-[20vh] overflow-hidden">
+          <div className="relative w-full h-[5vh] sm:h-[10vh] overflow-hidden">
             <div className="relative z-10 flex items-center justify-center w-full h-full bg-black bg-opacity-30">
               <h1 className="text-xl sm:text-5xl font-bold font-serif text-white">Wour Cart</h1>
             </div>

@@ -57,7 +57,7 @@ const GymFitnessSection = () => {
   return (
     <div className="py-8">
       <h2 className="text-3xl font-sans font-bold text-center mb-6">Gym and Fitness</h2>
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto scroll-smooth">
         <div className="flex gap-6 px-4">
           {products.map((product) => (
             <div

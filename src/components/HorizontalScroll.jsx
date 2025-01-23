@@ -4,7 +4,7 @@ import { products } from "../data/products"; // Import products data
 const HorizontalScroll = () => {
   return (
     <div className="flex justify-center bg-gray-200">
-      <div className="flex overflow-x-auto space-x-4 p-1 scrollbar-hide">
+      <div className="flex overflow-x-auto space-x-4 p-1 scrollbar-hide scroll-smooth">
         {products.map((product) => (
           <div key={product.id} className="flex flex-col items-center flex-shrink-0 hover:scale-110 transform transition duration-300">
             {/* Gradient Border */}

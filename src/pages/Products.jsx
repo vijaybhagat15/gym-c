@@ -121,11 +121,11 @@ export default function Products() {
   const uniqueCategories = [...new Set(products.map((item) => item.category))];
 
   return (
-    <section className="min-h-screen py-b px-3 font-sans bg-white border-b-2 border-white w-screen">
+    <section className="min-h-screen py-b  font-sans bg-white border-b-2 border-white w-full">
       <div className="w-full mx-auto">
         {/* Hero Section */}
         <div className=" border-b-2 text-white "style={{ backgroundImage: "url('/images/bg.jpg')" }}>
-          <div className="relative w-full h-[5vh] sm:h-[20vh] overflow-hidden">
+          <div className="relative w-full h-[5vh] sm:h-[10vh] overflow-hidden">
             <div className="relative z-10 flex items-center justify-center w-full h-full bg-black bg-opacity-30">
               <h1 className="text-xl sm:text-5xl font-bold font-serif text-white">Our Products</h1>
             </div>
