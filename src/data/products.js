@@ -14,7 +14,7 @@ export const products = [
     "name": "Treadmill (Folding)",
     "price": 699.99,
     "description": "High-performance folding treadmill for home cardio workouts.",
-    "image": "https://pngimg.com/uploads/treadmill/treadmill_PNG60.png",
+    "image": "",
     "category": "Cardio ",
     "rating": 4.7
   },
@@ -23,7 +23,7 @@ export const products = [
     "name": "Yoga Mat (Non-Slip)",
     "price": 19.99,
     "description": "Eco-friendly yoga mat with non-slip surface for safe practice.",
-    "image": "https://www.pikpng.com/pngl/b/513-5136705_yoga-mat-png-exercise-mat-clipart.png",
+    "image": "",
     "category": "Accessories",
     "rating": 4.6
   },
@@ -32,7 +32,7 @@ export const products = [
     "name": "Resistance Band Set",
     "price": 14.99,
     "description": "Set of resistance bands with varying levels for a versatile workout.",
-    "image": "https://proteinsource.ca/wp-content/uploads/2020/10/TPE-resistance-bands-set-of-11-600x600.jpg",
+    "image": "",
     "category": "Strength ",
     "rating": 4.4
   },
@@ -41,7 +41,7 @@ export const products = [
     "name": "Kettlebell (10kg)",
     "price": 29.99,
     "description": "High-quality kettlebell for functional and strength training exercises.",
-    "image": "https://samsfitness.com.au/wp-content/uploads/2022/02/powermaxx-kettlebells-category-600x600.jpg",
+    "image": "",
     "category": "Strength ",
     "rating": 4.6
   },
@@ -50,7 +50,7 @@ export const products = [
     "name": "Pull-Up Bar",
     "price": 39.99,
     "description": "Doorway pull-up bar for upper body strength training.",
-    "image": "https://www.portablepullupbars.com/wp-content/uploads/2022/04/ceayun-pull-up-bar-dimensions-portable-pull-up-bars-600x600.jpg",
+    "image": "",
     "category": "Strength ",
     "rating": 4.5
   },
@@ -59,7 +59,7 @@ export const products = [
     "name": "Foam Roller",
     "price": 24.99,
     "description": "Durable foam roller for muscle recovery and mobility exercises.",
-    "image": "https://images.hellomagazine.com/horizon/original_aspect_ratio/423f5ecbe28f-amazon-foam-roller-z.jpg",
+    "image": "",
     "category": "Accessories",
     "rating": 4.6
   },
@@ -68,7 +68,7 @@ export const products = [
     "name": "Spin Bike",
     "price": 299.99,
     "description": "Compact spin bike with adjustable resistance for home cardio workouts.",
-    "image": "https://tse2.mm.bing.net/th?id=OIP.kbkTIxYTb2EIpaF_TatwPAHaHa&pid=Api&P=0&h=180",
+    "image": "",
     "category": "Cardio ",
     "rating": 4.7
   },
@@ -77,7 +77,7 @@ export const products = [
     "name": "Adjustable Weight Bench",
     "price": 89.99,
     "description": "Adjustable weight bench for versatile strength training exercises.",
-    "image": "https://i5.walmartimages.com/asr/e9ceef9d-0023-43be-b495-aea36927b63b.152562ad44e83e72c3de747a151ed3ce.jpeg",
+    "image": "",
     "category": "Strength ",
     "rating": 4.8
   },
@@ -86,7 +86,7 @@ export const products = [
     "name": "Jump Rope",
     "price": 9.99,
     "description": "Durable jump rope for cardio and endurance workouts.",
-    "image": "https://cdn.shopify.com/s/files/1/0406/7174/0056/products/rope-master6_600x.jpg?v=1658152898",
+    "image": "",
     "category": "Accessories",
     "rating": 4.5
   },
@@ -95,7 +95,7 @@ export const products = [
     "name": "Adjustable Barbell Set",
     "price": 99.99,
     "description": "Customizable barbell set for strength training.",
-    "image": "https://www.pinnaclefitness.org.uk/wp-content/uploads/2020/10/8C81078C-AFDC-492D-B075-C1D431BF6CF5-scaled.jpeg",
+    "image": "",
     "category": "Accessories",
     "rating": 4.8
   },
@@ -104,7 +104,7 @@ export const products = [
     "name": "Punching Bag (Heavy Duty)",
     "price": 149.99,
     "description": "Durable punching bag for boxing, MMA, and cardio training.",
-    "image": "https://i5.walmartimages.com/asr/ce435e17-b11d-4d62-a168-9498f1861f7a.45ada20e0b03ab9cbcc747b8b85594fb.jpeg",
+    "image": "",
     "category": "Accessories",
     "rating": 4.7
   },
@@ -113,7 +113,7 @@ export const products = [
     "name": "Exercise Ball",
     "price": 19.99,
     "description": "Anti-burst exercise ball for stability and core strengthening workouts.",
-    "image": "https://i5.walmartimages.com/asr/c1a0fc9f-e59d-4cc9-bbca-e343414c9ce8.6188bcdea1dd636ee36d74c34a1f63aa.jpeg",
+    "image": "",
     "category": "Accessories",
     "rating": 4.5
   },
