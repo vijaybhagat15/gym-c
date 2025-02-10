@@ -14,7 +14,7 @@ export const products = [
     "name": "Treadmill (Folding)",
     "price": 699.99,
     "description": "High-performance folding treadmill for home cardio workouts.",
-    "image": "",
+    "image": "/images/products/2.png",
     "category": "Cardio ",
     "rating": 4.7
   },
@@ -23,7 +23,7 @@ export const products = [
     "name": "Yoga Mat (Non-Slip)",
     "price": 19.99,
     "description": "Eco-friendly yoga mat with non-slip surface for safe practice.",
-    "image": "",
+    "image": "/images/products/3.png",
     "category": "Accessories",
     "rating": 4.6
   },
@@ -32,7 +32,7 @@ export const products = [
     "name": "Resistance Band Set",
     "price": 14.99,
     "description": "Set of resistance bands with varying levels for a versatile workout.",
-    "image": "",
+    "image": "/images/products/4.jpg",
     "category": "Strength ",
     "rating": 4.4
   },
@@ -41,7 +41,7 @@ export const products = [
     "name": "Kettlebell (10kg)",
     "price": 29.99,
     "description": "High-quality kettlebell for functional and strength training exercises.",
-    "image": "",
+    "image": "/images/products/5.jpg",
     "category": "Strength ",
     "rating": 4.6
   },
@@ -50,7 +50,7 @@ export const products = [
     "name": "Pull-Up Bar",
     "price": 39.99,
     "description": "Doorway pull-up bar for upper body strength training.",
-    "image": "",
+    "image": "/images/products/6.webp",
     "category": "Strength ",
     "rating": 4.5
   },
@@ -59,7 +59,7 @@ export const products = [
     "name": "Foam Roller",
     "price": 24.99,
     "description": "Durable foam roller for muscle recovery and mobility exercises.",
-    "image": "",
+    "image": "/images/products/7.webp",
     "category": "Accessories",
     "rating": 4.6
   },
@@ -68,7 +68,7 @@ export const products = [
     "name": "Spin Bike",
     "price": 299.99,
     "description": "Compact spin bike with adjustable resistance for home cardio workouts.",
-    "image": "",
+    "image": "/images/products/8.jpg",
     "category": "Cardio ",
     "rating": 4.7
   },
@@ -77,7 +77,7 @@ export const products = [
     "name": "Adjustable Weight Bench",
     "price": 89.99,
     "description": "Adjustable weight bench for versatile strength training exercises.",
-    "image": "",
+    "image": "/images/products/9.webp",
     "category": "Strength ",
     "rating": 4.8
   },
@@ -86,7 +86,7 @@ export const products = [
     "name": "Jump Rope",
     "price": 9.99,
     "description": "Durable jump rope for cardio and endurance workouts.",
-    "image": "",
+    "image": "/images/products/10.webp",
     "category": "Accessories",
     "rating": 4.5
   },
@@ -95,7 +95,7 @@ export const products = [
     "name": "Adjustable Barbell Set",
     "price": 99.99,
     "description": "Customizable barbell set for strength training.",
-    "image": "",
+    "image": "/images/products/11.jpeg",
     "category": "Accessories",
     "rating": 4.8
   },
@@ -104,7 +104,7 @@ export const products = [
     "name": "Punching Bag (Heavy Duty)",
     "price": 149.99,
     "description": "Durable punching bag for boxing, MMA, and cardio training.",
-    "image": "",
+    "image": "/images/products/12.webp",
     "category": "Accessories",
     "rating": 4.7
   },
