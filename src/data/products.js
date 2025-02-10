@@ -4,7 +4,7 @@ export const products = [
     "name": "Dumbbell Set (20kg)",
     "price": 49.99,
     "description": "A durable and adjustable dumbbell set for strength training.",
-    "image": "https://pngimg.com/uploads/dumbbell/dumbbell_PNG16411.png",
+    "image": "/images/products/1.png",
     "category": "Strength ",
     "rating": 4.5,
     "abbreviation": 'GG'
